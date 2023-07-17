@@ -10,7 +10,7 @@ output "sample-var-output" {
  value ="value of the varaiable is${var.sample}"
 }
 
-varaiable "example_list" {
+variable "example_list" {
 default = ["AWS",
           "DevOps",
           54,
@@ -18,5 +18,5 @@ default = ["AWS",
           ]
 }
 output "example_list_op" {
-    value = Welcome to ${var_example_list[1]} and ${var_example_list[0]} training batch ${var_list_example[2]} and topic is ${var_example_list[3]}
+    value = "Welcome to ${var_example_list[1]} and ${var_example_list[0]} training batch ${var_list_example[2]} and topic is ${var_example_list[3]}"
 }
