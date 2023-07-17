@@ -18,5 +18,5 @@ default = ["AWS",
           ]
 }
 output "example_list_op" {
-    value = "Welcome to ${var.example_list[1]} and ${var.example_list[0]} training batch ${var.list_example[2]} and topic is ${var.example_list[3]}"
+    value = "Welcome to ${var.example_list[1]} and ${var.example_list[0]} training batch ${var.example_list[2]} and topic is ${var.example_list[3]}"
 }
