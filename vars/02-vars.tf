@@ -7,7 +7,7 @@ output "sample_op" {
 }
 
 output "sample_var_output" {
- value = "value of the varaiable is ${var.sample_op}"
+ value = "value of the varaiable is ${var.sample}"
 }
 
 variable "example_list" {
