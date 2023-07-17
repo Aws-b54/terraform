@@ -10,7 +10,7 @@ output "sample_var_output" {
  value ="value of the varaiable is${var.sample_op"}
 }
 
-variable "example_list_op" {
+variable "example_list" {
 default = ["AWS",
           "DevOps",
           54,
