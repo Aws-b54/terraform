@@ -22,11 +22,11 @@ output "example_list_op" {
 }
 
 variable "example_map" {
-    default = [
-            Batch =     "B54"
-            Training = "Aws and devops"
+    default = {
+            Batch =     "B54",
+            Training = "Aws and devops",
             mode     =  "online"
-    ]
+    }
 }
-outputt "example_map_op"
-value = " "Welcome to ${var.example_map[Training]} Aws and devops ${var.example_map[B54]} course is onlne ${var.example_map[online]}"
+output "example_map_op"
+value = " "Welcome to ${var.example_map["Training"]} Aws and devops ${var.example_map["B54"]} course is onlne ${var.example_map["online"]}"
