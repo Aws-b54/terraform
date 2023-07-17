@@ -11,7 +11,7 @@ output "sample_var_output" {
 }
 
 variable "example_list" {
-default = ["AWS",
+default = [ "AWS",
           "DevOps",
           54,
           "terraform"
