@@ -11,12 +11,22 @@ output "sample_var_output" {
 }
 
 variable "example_list" {
-default = [ "AWS",
-          "DevOps",
-          54,
-          "terraform"
+default = [  "AWS",
+            "DevOps",
+            54,
+           "terraform"
           ]
 }
 output "example_list_op" {
     value = "Welcome to ${var.example_list[1]} and ${var.example_list[0]} training batch ${var.example_list[2]} and topic is ${var.example_list[3]}"
 }
+
+variable "example_map" {
+    default = [
+            Batch =     "B54"
+            Training = "Aws and devops"
+            mode     =  "online"
+    ]
+}
+OUTPUT "example_map_op"
+value = " "Welcome to ${var.example_map[0]} Aws and devops ${var.example_map[1]} course is onlne ${var.example_map[2]}"
