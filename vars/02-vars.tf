@@ -2,7 +2,7 @@ variable "sample" {
     default = "wellcome to terraform"
 }
 
-variable "sample_op" {
+output "sample_op" {
     value = var.sample
 }
 
@@ -14,7 +14,7 @@ variable "example_list" {
 default = ["AWS",
           "DevOps",
           54,
-          "terraform",
+          "terraform"
           ]
 }
 output "example_list_op" {
