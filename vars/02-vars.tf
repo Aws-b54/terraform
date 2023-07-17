@@ -28,6 +28,6 @@ variable "example_map" {
             mode     =  "online"
     }
 }
-output "example_map_op"{
-value = "Welcome to ${var.example_map["Training"]} Aws and devops ${var.example_map["B54"]} course is onlne ${var.example_map["online"]}"
+output "example_map_op" {
+value = "Welcome to ${var.example_map["Training"]} Aws and devops ${var.example_map["B54"]} course is onlne ${var.example_map["mode"]}"
 }
