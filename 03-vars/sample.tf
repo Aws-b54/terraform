@@ -7,5 +7,5 @@ output "city_name" {
 variable "state"{}
 
 output "state_name" {
-    value = our state name is ${var.state}"
+    value = "our state name is ${var.state}"
 }
