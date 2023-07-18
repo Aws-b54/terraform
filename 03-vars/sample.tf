@@ -4,8 +4,8 @@ output "city_name" {
     value = "our city name is ${var.city}"
 }
 
-#varaiable "state"{}
+varaiable "state"{}
 
-#output "state_name" {
+output "state_name" {
     #value = our state name is ${var.state}"
-#}
+}
